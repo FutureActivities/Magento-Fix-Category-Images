@@ -1,0 +1,14 @@
+{
+    "name": "futureactivies/magento-fixcategoryimages",
+    "description": "Temporary extension to fix category images being lost on save",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "require": {
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "FutureActivities\\FixCategoryImages\\": ""
+        }
+    }
+}
