@@ -184,7 +184,7 @@ class Image extends \Magento\Catalog\Model\Category\Attribute\Backend\Image
             return false;
         }
 
-        return strpos($fileUrl, $baseMediaDir) === 0;
+        return strpos($fileUrl, $baseMediaDir) !== false;
     }
 
     /**
